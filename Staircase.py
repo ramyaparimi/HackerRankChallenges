@@ -1,4 +1,4 @@
-def Staircase(n):
+def staircase(n):
     space = n-1
     for num in range(n):
         hash = num +1
@@ -9,5 +9,4 @@ def Staircase(n):
 
 
 
-
-print(Staircase(4))
+staircase(4)
